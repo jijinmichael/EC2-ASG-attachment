@@ -17,6 +17,14 @@ Minimum capacity = 0
 
 Maximum capacity = 1
 
+In the context of auto scaling, the desired minimum and maximum values for the group size refer to the range of instances that an auto scaling group can scale between based on the workload demands.
+
+The desired minimum value represents the lower limit or the minimum number of instances that the auto scaling group should maintain, even during periods of low demand. This ensures that there are always a certain number of instances available to handle incoming requests.
+
+The desired maximum value represents the upper limit or the maximum number of instances that the auto scaling group can scale up to when there is high demand. This allows the group to dynamically increase its capacity to handle increased traffic or workload.
+
+By specifying these desired minimum and maximum values, you provide guidelines to the auto scaling system on how many instances it should maintain within the group at any given time. The actual number of instances will be automatically adjusted based on the scaling policies and conditions defined, such as CPU utilization, network traffic, or other metrics that you configure.
+
 ![image](https://github.com/jijinmichael/ASG-Instance-Management/assets/134680540/6775bc69-717b-4245-93e4-241e9debbfd0)
 
 4. Then go to the instance >> instance settings >> Attach to Auto Scaling Group.
