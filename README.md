@@ -11,7 +11,9 @@ Here I'm taking an AMI of the already created instance named webserver.
 
 3. Create an Auto Scaling Group with the above LC.
 
-Please note : The Group size must be Desired capacity = 0 
+Please note : The Group size must be 
+
+Desired capacity = 0 
 
 Minimum capacity = 0
 
