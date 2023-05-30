@@ -13,11 +13,11 @@ Here I'm taking an AMI of the already created instance named webserver.
 
 Please note : The Group size must be 
 
-**Desired capacity** = 0 
+**Desired capacity = 0** 
 
-**Minimum capacity** = 0
+**Minimum capacity = 0**
 
-**Maximum capacity** = 1
+**Maximum capacity = 1**
 
 In the context of auto scaling, the desired minimum and maximum values for the group size refer to the range of instances that an auto scaling group can scale between based on the workload demands.
 
